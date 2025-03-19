@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: monica
+  ai:
+    openai:
+      api-key: sk-CEYlad0YOaS7bBTOHC0sFTuU3MRMA3N5r7seMQnFvJc2TgsX
+      base-url: https://yunwu.ai
+      chat:
+        options:
+          model: gpt-4-turbo
+server:
+  servlet:
+    encoding:
+      charset: UTF-8

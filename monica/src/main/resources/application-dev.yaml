@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: monica
+  ai:
+    openai:
+      api-key: sk-xxxxxxxxx
+      base-url: https://zzzzz
+      chat:
+        options:
+          model: gpt-4-turbo
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
